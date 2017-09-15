@@ -26,7 +26,7 @@ class BillingCycle extends Component {
     
     render() {
         return (
-            <Row>
+            <div>
                 <ContentHeader title="Ciclo de pagamentos" small="Cadastro" />
                 <Content>
                     <Tabs>
@@ -48,7 +48,7 @@ class BillingCycle extends Component {
                         </TabsContent>
                     </Tabs>
                 </Content>
-            </Row>
+            </div>
         )
     }
 }
